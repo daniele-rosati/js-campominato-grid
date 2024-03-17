@@ -1,0 +1,21 @@
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    justify-content: center;
+    padding: 10px;
+    background-color: aquamarine;
+  }
+  .grid-item {
+    
+    border: 0.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .grid-item.clicked {
+    background-color: blue;
+    color: white;
+  }
